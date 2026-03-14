@@ -9,7 +9,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "8722180281:AAEFG5aVXBnc-4fEwXq1rnxxVPX9
 CREDIT = os.environ.get("CREDIT", "𝐈𝐓'𝐬𝐆𝐎𝐋𝐔")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "CpprivateApi")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://rockkrishna982003_db_user:<db_password>@rockkrishna982.6l048gw.mongodb.net/?appName=rockkrishna982")  # Add your own atlas db
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://rockkrishna982003_db_user:<db_password>@rockkrishna982.6l048gw.mongodb.net/?")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
